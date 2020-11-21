@@ -1,2 +1,3 @@
+CanvasBlocker: https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
 Dark Reader: https://addons.mozilla.org/en-US/firefox/addon/darkreader/
 uBlock Origin: https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
