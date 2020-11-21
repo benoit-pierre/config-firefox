@@ -1,0 +1,1 @@
+uBlock Origin: https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
