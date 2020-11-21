@@ -1,3 +1,4 @@
 CanvasBlocker: https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
 Dark Reader: https://addons.mozilla.org/en-US/firefox/addon/darkreader/
+I don't care about cookies: https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/
 uBlock Origin: https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
