@@ -1,0 +1,43 @@
+{
+   "applyToListedOnly" : false,
+   "automation" : "",
+   "changeBrowserTheme" : false,
+   "customThemes" : [],
+   "enableForPDF" : true,
+   "enableForProtectedPages" : false,
+   "enabled" : true,
+   "location" : {
+      "latitude" : null,
+      "longitude" : null
+   },
+   "notifyOfNews" : false,
+   "presets" : [],
+   "previewNewDesign" : true,
+   "siteList" : [],
+   "siteListEnabled" : [],
+   "syncSettings" : false,
+   "syncSitesFixes" : false,
+   "theme" : {
+      "brightness" : 100,
+      "contrast" : 100,
+      "darkSchemeBackgroundColor" : "#181a1b",
+      "darkSchemeTextColor" : "#e8e6e3",
+      "engine" : "dynamicTheme",
+      "fontFamily" : "Open Sans",
+      "grayscale" : 0,
+      "lightSchemeBackgroundColor" : "#dcdad7",
+      "lightSchemeTextColor" : "#181a1b",
+      "mode" : 1,
+      "scrollbarColor" : "auto",
+      "selectionColor" : "auto",
+      "sepia" : 0,
+      "styleSystemControls" : true,
+      "stylesheet" : "",
+      "textStroke" : 0,
+      "useFont" : false
+   },
+   "time" : {
+      "activation" : "18:00",
+      "deactivation" : "9:00"
+   }
+}
