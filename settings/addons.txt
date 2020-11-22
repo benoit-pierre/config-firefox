@@ -1,6 +1,7 @@
 CanvasBlocker: https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
 Dark Reader: https://addons.mozilla.org/en-US/firefox/addon/darkreader/
 Firefox Multi-Account Containers: https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
+Gesturefy: https://addons.mozilla.org/en-US/firefox/addon/gesturefy/
 I don't care about cookies: https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/
 Temporary Containers: https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/
 uBlock Origin: https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/

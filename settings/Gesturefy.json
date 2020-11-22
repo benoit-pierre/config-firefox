@@ -1,0 +1,205 @@
+{
+   "Gestures" : [
+      {
+         "command" : {
+            "name" : "RestoreTab",
+            "settings" : {
+               "currentWindowOnly" : true
+            }
+         },
+         "pattern" : [
+            [
+               -1,
+               0
+            ],
+            [
+               1,
+               0
+            ]
+         ]
+      },
+      {
+         "command" : {
+            "name" : "ScrollTop",
+            "settings" : {
+               "duration" : 0
+            }
+         },
+         "pattern" : [
+            [
+               -1,
+               0
+            ],
+            [
+               0,
+               -1
+            ]
+         ]
+      },
+      {
+         "command" : {
+            "name" : "ScrollBottom",
+            "settings" : {
+               "duration" : 0
+            }
+         },
+         "pattern" : [
+            [
+               -1,
+               0
+            ],
+            [
+               0,
+               1
+            ]
+         ]
+      },
+      {
+         "command" : {
+            "name" : "CloseTab",
+            "settings" : {
+               "closePinned" : true,
+               "nextFocus" : "previous"
+            }
+         },
+         "label" : "Close tab and left",
+         "pattern" : [
+            [
+               -1,
+               0
+            ]
+         ]
+      },
+      {
+         "command" : {
+            "name" : "CloseTab",
+            "settings" : {
+               "closePinned" : true,
+               "nextFocus" : "next"
+            }
+         },
+         "label" : "Close tab and right",
+         "pattern" : [
+            [
+               1,
+               0
+            ]
+         ]
+      },
+      {
+         "command" : {
+            "name" : "ReloadTab",
+            "settings" : {
+               "cache" : false
+            }
+         },
+         "pattern" : [
+            [
+               0,
+               -1
+            ],
+            [
+               0,
+               1
+            ]
+         ]
+      },
+      {
+         "command" : {
+            "name" : "ReloadTab",
+            "settings" : {
+               "cache" : true
+            }
+         },
+         "label" : "Reload tab (no cache)",
+         "pattern" : [
+            [
+               0,
+               -1
+            ],
+            [
+               0,
+               1
+            ],
+            [
+               0,
+               -1
+            ]
+         ]
+      },
+      {
+         "command" : {
+            "name" : "FocusFirstTab",
+            "settings" : {
+               "includePinned" : false
+            }
+         },
+         "pattern" : [
+            [
+               0,
+               -1
+            ],
+            [
+               -1,
+               0
+            ]
+         ]
+      },
+      {
+         "command" : {
+            "name" : "FocusLastTab"
+         },
+         "pattern" : [
+            [
+               0,
+               -1
+            ],
+            [
+               1,
+               0
+            ]
+         ]
+      }
+   ],
+   "Settings" : {
+      "General" : {
+         "theme" : "dark",
+         "updateNotification" : false
+      },
+      "Gesture" : {
+         "Command" : {
+            "display" : false
+         },
+         "Directions" : {
+            "display" : false
+         },
+         "Trace" : {
+            "display" : false
+         },
+         "distanceSensitivity" : 10,
+         "distanceThreshold" : 10,
+         "mouseButton" : "2"
+      },
+      "Rocker" : {
+         "active" : false
+      },
+      "Wheel" : {
+         "active" : true,
+         "mouseButton" : "2",
+         "wheelDown" : {
+            "name" : "FocusRightTab",
+            "settings" : {
+               "cycling" : true,
+               "excludeDiscarded" : false
+            }
+         },
+         "wheelUp" : {
+            "name" : "FocusLeftTab",
+            "settings" : {
+               "cycling" : true,
+               "excludeDiscarded" : false
+            }
+         }
+      }
+   }
+}
