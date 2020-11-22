@@ -1,0 +1,101 @@
+{
+   "date" : 1605997036461,
+   "preferences" : {
+      "automaticMode" : {
+         "active" : true,
+         "newTab" : "created"
+      },
+      "browserActionPopup" : false,
+      "closeRedirectorTabs" : {
+         "active" : true,
+         "delay" : 2000,
+         "domains" : [
+            "t.co",
+            "outgoing.prod.mozaws.net",
+            "slack-redir.net"
+         ]
+      },
+      "container" : {
+         "color" : "toolbar",
+         "colorRandom" : false,
+         "colorRandomExcluded" : [],
+         "icon" : "circle",
+         "iconRandom" : false,
+         "iconRandomExcluded" : [],
+         "namePrefix" : "tmp",
+         "numberMode" : "reuse",
+         "removal" : 900000
+      },
+      "contextMenu" : true,
+      "contextMenuBookmarks" : false,
+      "cookies" : {
+         "domain" : {}
+      },
+      "deletesHistory" : {
+         "active" : false,
+         "automaticMode" : "never",
+         "containerAlwaysPerDomain" : "never",
+         "containerIsolation" : "never",
+         "containerMouseClicks" : "never",
+         "containerRemoval" : 0,
+         "contextMenu" : false,
+         "contextMenuBookmarks" : false,
+         "statistics" : false
+      },
+      "iconColor" : "default",
+      "ignoreRequests" : [
+         "getpocket.com",
+         "addons.mozilla.org"
+      ],
+      "isolation" : {
+         "automaticReactivateDelay" : 0,
+         "domain" : [],
+         "global" : {
+            "excluded" : {},
+            "excludedContainers" : [],
+            "mouseClick" : {
+               "ctrlleft" : {
+                  "action" : "notsamedomain",
+                  "container" : "default"
+               },
+               "left" : {
+                  "action" : "notsamedomain",
+                  "container" : "default"
+               },
+               "middle" : {
+                  "action" : "notsamedomain",
+                  "container" : "default"
+               }
+            },
+            "navigation" : {
+               "action" : "notsamedomain"
+            }
+         },
+         "mac" : {
+            "action" : "disabled"
+         }
+      },
+      "keyboardShortcuts" : {
+         "AltC" : false,
+         "AltI" : false,
+         "AltN" : false,
+         "AltO" : false,
+         "AltP" : true,
+         "AltShiftC" : false,
+         "AltX" : false
+      },
+      "notifications" : false,
+      "pageAction" : false,
+      "replaceTabs" : false,
+      "scripts" : {
+         "active" : false,
+         "domain" : {}
+      },
+      "statistics" : false,
+      "ui" : {
+         "expandPreferences" : true,
+         "popupDefaultTab" : "isolation-global"
+      }
+   },
+   "version" : "1.9.1"
+}
