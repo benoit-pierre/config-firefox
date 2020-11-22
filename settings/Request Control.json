@@ -1,0 +1,354 @@
+[
+   {
+      "action" : "filter",
+      "active" : true,
+      "description" : "Filter rule to skip and prevent redirection tracking on multiple hosts.",
+      "pattern" : {
+         "host" : [
+            "*.tradedoubler.com",
+            "out.reddit.com",
+            "steamcommunity.com"
+         ],
+         "path" : "*url=*",
+         "scheme" : "*"
+      },
+      "tag" : "filter-multiple",
+      "types" : [
+         "main_frame"
+      ],
+      "uuid" : "3baa759b-9afc-41ef-b770-c60e1d9383d2"
+   },
+   {
+      "action" : "filter",
+      "active" : true,
+      "description" : "This filter rule prevents Google from obtaining the URL of clicked search link via URL redirection. The tracking request done in background is classified as a Sub Document type. This rule provides an example of using the top-level domains pattern.",
+      "pattern" : {
+         "host" : "*.google.*",
+         "path" : "url?*",
+         "scheme" : "*",
+         "topLevelDomains" : [
+            "com",
+            "ad",
+            "ae",
+            "com.af",
+            "com.ag",
+            "com.ai",
+            "al",
+            "am",
+            "co.ao",
+            "com.ar",
+            "as",
+            "at",
+            "com.au",
+            "az",
+            "ba",
+            "com.bd",
+            "be",
+            "bf",
+            "bg",
+            "com.bh",
+            "bi",
+            "bj",
+            "com.bn",
+            "com.bo",
+            "com.br",
+            "bs",
+            "bt",
+            "co.bw",
+            "by",
+            "com.bz",
+            "ca",
+            "cd",
+            "cf",
+            "cg",
+            "ch",
+            "ci",
+            "co.ck",
+            "cl",
+            "cm",
+            "cn",
+            "com.co",
+            "co.cr",
+            "com.cu",
+            "cv",
+            "com.cy",
+            "cz",
+            "de",
+            "dj",
+            "dk",
+            "dm",
+            "com.do",
+            "dz",
+            "com.ec",
+            "ee",
+            "com.eg",
+            "es",
+            "com.et",
+            "fi",
+            "com.fj",
+            "fm",
+            "fr",
+            "ga",
+            "ge",
+            "gg",
+            "com.gh",
+            "com.gi",
+            "gl",
+            "gm",
+            "gp",
+            "gr",
+            "com.gt",
+            "gy",
+            "com.hk",
+            "hn",
+            "hr",
+            "ht",
+            "hu",
+            "co.id",
+            "ie",
+            "co.il",
+            "im",
+            "co.in",
+            "iq",
+            "is",
+            "it",
+            "je",
+            "com.jm",
+            "jo",
+            "co.jp",
+            "co.ke",
+            "com.kh",
+            "ki",
+            "kg",
+            "co.kr",
+            "com.kw",
+            "kz",
+            "la",
+            "com.lb",
+            "li",
+            "lk",
+            "co.ls",
+            "lt",
+            "lu",
+            "lv",
+            "com.ly",
+            "co.ma",
+            "md",
+            "me",
+            "mg",
+            "mk",
+            "ml",
+            "com.mm",
+            "mn",
+            "ms",
+            "com.mt",
+            "mu",
+            "mv",
+            "mw",
+            "com.mx",
+            "com.my",
+            "co.mz",
+            "com.na",
+            "com.nf",
+            "com.ng",
+            "com.ni",
+            "ng",
+            "ne",
+            "nl",
+            "no",
+            "com.np",
+            "nr",
+            "nu",
+            "co.nz",
+            "com.om",
+            "com.pa",
+            "com.pe",
+            "com.pg",
+            "com.ph",
+            "com.pk",
+            "pl",
+            "pn",
+            "com.pr",
+            "ps",
+            "pt",
+            "com.py",
+            "com.qa",
+            "ro",
+            "ru",
+            "rw",
+            "com.sa",
+            "com.sb",
+            "sc",
+            "se",
+            "com.sg",
+            "sh",
+            "si",
+            "sk",
+            "com.sl",
+            "sn",
+            "so",
+            "sm",
+            "sr",
+            "st",
+            "com.sv",
+            "td",
+            "tg",
+            "co.th",
+            "com.tj",
+            "tk",
+            "tl",
+            "tm",
+            "tn",
+            "to",
+            "com.tr",
+            "tt",
+            "com.tw",
+            "co.tz",
+            "com.ua",
+            "co.ug",
+            "co.uk",
+            "com.uy",
+            "co.uz",
+            "com.vc",
+            "co.ve",
+            "vg",
+            "co.vi",
+            "com.vn",
+            "vu",
+            "ws",
+            "rs",
+            "co.za",
+            "co.zm",
+            "co.zw",
+            "cat"
+         ]
+      },
+      "redirectDocument" : true,
+      "tag" : "filter-google",
+      "title" : "Stop Google search link tracking",
+      "types" : [
+         "main_frame",
+         "sub_frame"
+      ],
+      "uuid" : "60f46cfa-b906-4a2d-ab66-8f26dc35e97f"
+   },
+   {
+      "action" : "filter",
+      "active" : true,
+      "pattern" : {
+         "host" : "*.deviantart.com",
+         "path" : "*outgoing?*",
+         "scheme" : "*"
+      },
+      "tag" : "filter-deviantArt",
+      "title" : "Skip outgoing page confirmation on DeviantArt",
+      "types" : [
+         "main_frame"
+      ],
+      "uuid" : "bc145190-0b68-4ff4-84d3-321e131cd253"
+   },
+   {
+      "action" : "filter",
+      "active" : true,
+      "pattern" : {
+         "host" : "outgoing.prod.mozaws.net",
+         "path" : "*",
+         "scheme" : "*"
+      },
+      "tag" : "filter-mozilla",
+      "title" : "Skip Mozilla's outgoing link redirection service",
+      "types" : [
+         "main_frame"
+      ],
+      "uuid" : "3c4d6fa0-e2fb-4079-b3f0-e453ebe289ae"
+   },
+   {
+      "action" : "filter",
+      "active" : true,
+      "description" : "Remove UTM query parameters from requests. UTM query parameters are commonly used as a method to analyze the origin of traffic.",
+      "paramsFilter" : {
+         "values" : [
+            "utm_*"
+         ]
+      },
+      "pattern" : {
+         "host" : [
+            "*"
+         ],
+         "path" : [
+            "*utm_*"
+         ],
+         "scheme" : "*"
+      },
+      "skipRedirectionFilter" : true,
+      "tag" : "filter-utm",
+      "title" : "Remove UTM query parameters",
+      "types" : [
+         "main_frame"
+      ],
+      "uuid" : "5276a290-b21a-4deb-a86e-aa54c3ff1bcc"
+   },
+   {
+      "action" : "block",
+      "active" : true,
+      "description" : "The Beacon API is often used for logging user activity and sending analytics data to the server.",
+      "pattern" : {
+         "allUrls" : true
+      },
+      "tag" : "block-beacon",
+      "title" : "Block Beacon and Ping requests",
+      "types" : [
+         "beacon",
+         "ping"
+      ],
+      "uuid" : "32db1f93-f99d-4c45-8485-e5c7beec5a69"
+   },
+   {
+      "action" : "filter",
+      "active" : true,
+      "description" : "This filter rule prevents Facebook from obtaining the URL of clicked search link via URL redirection.",
+      "pattern" : {
+         "host" : "l.facebook.*",
+         "path" : "l.php?u=*",
+         "scheme" : "*",
+         "topLevelDomains" : [
+            "com",
+            "net"
+         ]
+      },
+      "tag" : "filter-facebook",
+      "title" : "Stop Facebook's outgoing link redirection service tracking",
+      "types" : [
+         "main_frame",
+         "sub_frame"
+      ],
+      "uuid" : "07be1337-ceec-4a93-a49e-67e051124a7f"
+   },
+   {
+      "action" : "filter",
+      "active" : true,
+      "description" : "Remove fbclid query parameters from requests. Facebook click identifier query parameters are commonly used as a method to analyze the origin of traffic.",
+      "paramsFilter" : {
+         "values" : [
+            "fbclid"
+         ]
+      },
+      "pattern" : {
+         "host" : [
+            "*"
+         ],
+         "path" : [
+            "*fbclid*"
+         ],
+         "scheme" : "*"
+      },
+      "skipRedirectionFilter" : true,
+      "tag" : "filter-facebook",
+      "title" : "Remove FBCLID query parameters",
+      "types" : [
+         "main_frame",
+         "sub_frame"
+      ],
+      "uuid" : "07be1337-4d49-475b-9062-8b191099621b"
+   }
+]
