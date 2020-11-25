@@ -4,5 +4,6 @@ Firefox Multi-Account Containers: https://addons.mozilla.org/en-US/firefox/addon
 Gesturefy: https://addons.mozilla.org/en-US/firefox/addon/gesturefy/
 I don't care about cookies: https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/
 Request Control: https://addons.mozilla.org/en-US/firefox/addon/requestcontrol/
+Surfingkeys: https://addons.mozilla.org/en-US/firefox/addon/surfingkeys_ff/
 Temporary Containers: https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/
 uBlock Origin: https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
