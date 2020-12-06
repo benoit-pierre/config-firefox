@@ -1694,6 +1694,8 @@ user_pref("browser.tabs.insertAfterCurrent", true);
 // Switch search engine to DuckDuckGo.
 // FIXME: does not work, can only be changed with policies...
 user_pref("browser.urlbar.placeholderName", "DuckDuckGo");
+// Tighten UI.
+user_pref("browser.uidensity", 1);
 // Use devtools dark theme.
 user_pref("devtools.theme", "dark");
 // Disable smooth scrolling.
@@ -1702,7 +1704,7 @@ user_pref("general.smoothScroll", false);
 user_pref("image.animation_mode", "none");
 // Protect my ears...
 user_pref("media.default_volume", "0.5");
-user_pref("media.volume_scale", "0.15");
+user_pref("media.volume_scale", "0.25");
 // Disable wasteful Race Cache With Network option.
 user_pref("network.http.rcwn.enabled", false);
 // Use reader dark theme.
