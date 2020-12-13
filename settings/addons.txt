@@ -1,3 +1,4 @@
+Auto Tab Discard: https://addons.mozilla.org/en-US/firefox/addon/auto-tab-discard/
 CanvasBlocker: https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
 Dark Reader: https://addons.mozilla.org/en-US/firefox/addon/darkreader/
 Firefox Multi-Account Containers: https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/

@@ -1,0 +1,19 @@
+.tabbrowser-tab[pending="true"] {
+  filter: brightness(.75);
+}
+
+.tabbrowser-tab[pending="true"] .tab-icon-image {
+  filter: grayscale(100%);
+}
+
+.tabbrowser-tab[pending="true"]:hover {
+  filter: none;
+}
+
+.tabbrowser-tab[pending="true"]:hover .tab-icon-image {
+  filter: none;
+}
+
+/*
+vim: expandtab sw=2
+*/
